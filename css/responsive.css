@@ -1,0 +1,44 @@
+/* Laptop L */
+@media (max-width: 1440px) {
+}
+
+/* Before Laptop */
+@media (max-width: 1024px) {
+  .page {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 960px) {
+  .menuBarWord {
+    display: none;
+  }
+}
+
+/* Tablette */
+@media (max-width: 768px) {
+  .page {
+    width: 80vw;
+  }
+}
+
+/* Mobile L */
+@media (max-width: 425px) {
+  .page {
+    width: 100vw;
+    padding: 20px;
+  }
+  ptext,
+  .custom-control,
+  .custom-switch {
+    display: none;
+  }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+}
