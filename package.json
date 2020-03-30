@@ -1,0 +1,25 @@
+{
+  "name": "motivationletter",
+  "version": "1.0.0",
+  "description": "This is an original motivation letter",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "parcel server index.html",
+    "build:dev": "parcel build index.html",
+    "postinstall": "npm run build:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustinRibreau/motivationLetter.git"
+  },
+  "author": "Augustin Ribreau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AugustinRibreau/motivationLetter/issues"
+  },
+  "homepage": "https://github.com/AugustinRibreau/motivationLetter#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}

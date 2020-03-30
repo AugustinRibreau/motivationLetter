@@ -1,0 +1,72 @@
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.page {
+  padding: 100px;
+  margin: 5vh 0 7vh 0;
+  height: 5000px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  color: black;
+  text-align: justify;
+}
+
+.page p:nth-child(1) {
+  font-size: 15px;
+  text-align: right;
+  font-weight: 200;
+}
+
+.page p:nth-child(2) {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.page p:nth-child(3) {
+  font-size: 15px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.content_p-1,
+.content_p-2,
+.content_p-3,
+.content_p-4,
+.content_p-5,
+.content_p-6 {
+  font-size: 15px;
+  text-align: justify;
+  font-weight: 300;
+  text-indent: 5%;
+}
+
+.content_p-6 {
+  font-weight: 300;
+}
+
+.content_p-7,
+.content_p-8 {
+  font-size: 15px;
+  margin: 3px;
+  text-align: right;
+  font-weight: 300;
+}
+
+blablabla {
+  /* font-weight: 200; */
+  font-size: 15px;
+  color: #999999;
+}
+
+titleBarre {
+  text-decoration: line-through;
+}

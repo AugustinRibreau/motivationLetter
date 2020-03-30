@@ -1,0 +1,163 @@
+.macBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background: #404040;
+  color: white;
+}
+
+.macBar i {
+  padding: 2.5px;
+  font-size: 12.5px;
+  border: 0.2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+pText {
+  font-size: 12px;
+  margin: 0 10px 0 20px;
+}
+
+.fa-reply {
+  color: grey;
+}
+
+.macBar i:nth-child(1) {
+  margin-left: 5px;
+  color: red;
+}
+.macBar i:nth-child(2) {
+  color: orange;
+}
+.macBar i:nth-child(3) {
+  color: green;
+}
+
+.macBar i:not(.macButtonTopLeft) {
+  margin: 0 2px;
+}
+
+.topBarWordInterface {
+  border: 1px solid black;
+}
+
+.barWordInterface {
+  width: 100%;
+  color: white;
+}
+
+.menuBarWord_Section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.menuBarWord {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menuBarWord p {
+  color: white;
+  margin: 0 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menuBarWord p:hover {
+  text-decoration: underline;
+}
+
+.menuBarWord p:first-child {
+  text-decoration: underline;
+}
+
+.menuBarWord_Section div:last-child {
+  margin-right: 10px;
+}
+
+.menuBarWord_Section button:first-child {
+  margin-right: 5px;
+}
+
+.menuBarWord_Section button {
+  padding: 2px 10px;
+  background: #626262;
+  font-size: 13px;
+  font-weight: 500;
+}
+.menuBarWord_Section button i {
+  margin-right: 4px;
+}
+
+.bottomWordInterface {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 24px;
+  background: #404040;
+  color: white;
+}
+
+.bottomWordInterface div {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 2px;
+}
+
+.bottomWordInterface div p {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.bottomWordInterface div:first-child p:first-child {
+  margin-left: 30px;
+}
+
+.bottomWordInterface div:last-child p:first-child i {
+  padding-top: 1px;
+}
+
+.bottomWordInterface div:first-child p {
+  padding: 1px 15px;
+}
+
+.bottomWordInterface div:last-child p {
+  padding: 1px 5px;
+}
+
+.bottomWordInterface div:last-child p:last-child {
+  margin-right: 30px;
+}
+
+.bottomWordInterface div p input,
+.bottomWordInterface div p label {
+  color: white;
+}
+
+.bottomWordInterface div p i {
+  padding-top: 3px;
+}
+
+.bottomWordInterface div p:hover {
+  background: #5e5e5d;
+}
+
+.custom-range {
+  width: 100px;
+  color: #5e5e5d;
+}

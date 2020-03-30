@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #333333;
+  font-family: "Roboto";
+  height: 100vh;
+  width: 100%;
+}
